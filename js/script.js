@@ -80,3 +80,71 @@ console.log(x===y);
 console.log(x===22);
 var n= 22;
 console.log(x===n);
+
+//ternary operator;
+var k= 100;
+var l=20;
+(k>l)? l ='true' : l = false; //only for one condition
+console.log(l);
+var age =10;
+console.log((age>=10)? "high" : "low");
+
+//switch statement;
+ var day=4;
+
+ switch(day){
+
+     case 0: 
+          console.log(0);
+          break;
+     case 1:
+          console.log(1);
+     break;
+     case 2:
+          console.log(2);
+          break;
+     case 3:
+          console.log(3);
+          break;
+     case 4:
+          console.log(4);
+          break;
+     case 5:
+          console.log(5);
+          break;
+     default:
+          console.log("invalid");
+          
+
+ }
+ //alert();
+
+ //console.log(alert('hi'));
+document.write("</br>");
+ //document.write(confirm("hi"));
+ //var cnfrm = confirm("do you like our website");
+ //alert(cnfrm);
+ 
+
+ //var prmt = prompt("Enter your Input value"); 
+// document.write(prmt);
+
+function sayHello(){
+     alert("click korecen ekta");
+}
+
+function dblclick(){
+     alert("Double click sara bell nai");
+}
+function onMuseOver(){
+     alert("Mouse over event");
+}
+function mouseOut(){
+     alert("Mouse  out");
+}
+function keyup(){
+     alert("keyup for text");
+}
+function rightclick(){
+     alert("righ click");
+}
